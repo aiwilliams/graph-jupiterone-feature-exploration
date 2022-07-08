@@ -24,7 +24,7 @@ export const accessSpec: StepSpec<IntegrationConfig>[] = [
         targetType: 'acme_user',
       },
     ],
-    dependsOn: ['fetch-account'],
+    dependsOn: ['recently-deleted'],
     implemented: true,
   },
   {
@@ -49,7 +49,7 @@ export const accessSpec: StepSpec<IntegrationConfig>[] = [
         targetType: 'acme_group',
       },
     ],
-    dependsOn: ['fetch-account'],
+    dependsOn: ['recently-deleted'],
     implemented: true,
   },
   {

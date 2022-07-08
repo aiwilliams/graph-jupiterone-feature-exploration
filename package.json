@@ -13,6 +13,7 @@
     "access": "public"
   },
   "scripts": {
+    "sync": "NODE_OPTIONS=\"-r dotenv/config\" yarn j1-integration sync --development -i 56c76a3d-6458-4286-afcd-4fc7d82cf58b",
     "start": "j1-integration collect",
     "graph": "j1-integration visualize",
     "graph:types": "j1-integration visualize-types",
